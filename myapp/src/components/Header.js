@@ -9,6 +9,7 @@ const Header = ({onClickContact}) =>{
             </div>
             <nav>
                 <ul>
+                    <li>Place Holder</li>
                     <li role="button">Home</li>
                     <li role="button">Shoping</li>
                     <li role="button" onClick={()=>onClickContact()}>Contact us</li>
