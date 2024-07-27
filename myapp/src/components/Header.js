@@ -1,17 +1,18 @@
 import "./Header.css"
 
-const Header = () =>{
+const Header = ({onClickContact}) =>{
     return (
         <header>
             <div>
-                <h1>Title</h1>
+                <img src="" alt="logo"/>
+                <h1>Dmart</h1>
             </div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact us</li>
-                    <li>some button</li>
+                    <li>Place Holder</li>
+                    <li role="button">Home</li>
+                    <li role="button">Shoping</li>
+                    <li role="button" onClick={()=>onClickContact()}>Contact us</li>
                 </ul>
             </nav>
         </header>
