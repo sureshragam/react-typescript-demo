@@ -1,3 +1,5 @@
+import "./Header.css"
+
 const Header = () =>{
     return (
         <header>
@@ -9,6 +11,7 @@ const Header = () =>{
                 <ul>
                     <li>Home</li>
                     <li>About</li>
+                    <li>Contact us</li>
                 </ul>
             </nav>
         </header>
