@@ -1,6 +1,6 @@
 import "./Header.css"
 
-const Header = () =>{
+const Header = ({onClickContact}) =>{
     return (
         <header>
             <div>
@@ -10,9 +10,8 @@ const Header = () =>{
             <nav>
                 <ul>
                     <li role="button">Home</li>
-                    <li role="button">About</li>
-                    <li role="button">Shooping</li>
-                    <li role="button">Contact us</li>
+                    <li role="button">Shoping</li>
+                    <li role="button" onClick={()=>onClickContact()}>Contact us</li>
                 </ul>
             </nav>
         </header>
