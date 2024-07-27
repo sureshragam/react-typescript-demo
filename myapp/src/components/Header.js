@@ -5,13 +5,14 @@ const Header = () =>{
         <header>
             <div>
                 <img src="" alt="logo"/>
-                <h1>Title</h1>
+                <h1>Dmart</h1>
             </div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact us</li>
+                    <li role="button">Home</li>
+                    <li role="button">About</li>
+                    <li role="button">Shooping</li>
+                    <li role="button">Contact us</li>
                 </ul>
             </nav>
         </header>

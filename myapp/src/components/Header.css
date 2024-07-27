@@ -4,6 +4,9 @@ header{
     justify-content: space-between;
     padding: 10px;
     align-items: center;
+    background-color: aliceblue;
+    position: fixed;
+    width: 100vw;
 
 }
 header>div{
@@ -18,4 +21,11 @@ nav>ul{
     gap:10px;
     margin-right: 20px;
     cursor: pointer;
+}
+ul>li{
+    background-color: deeppink;
+    color: azure;
+    padding:10px;
+    width:100px;
+    border-radius: 5px;
 }
