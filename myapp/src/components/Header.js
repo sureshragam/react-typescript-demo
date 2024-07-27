@@ -4,7 +4,6 @@ const Header = () =>{
     return (
         <header>
             <div>
-                <img src="" alt="logo"/>
                 <h1>Title</h1>
             </div>
             <nav>
@@ -12,6 +11,7 @@ const Header = () =>{
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact us</li>
+                    <li>some button</li>
                 </ul>
             </nav>
         </header>
