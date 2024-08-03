@@ -5,7 +5,7 @@ const Header = ({onClickContact}) =>{
         <header>
             <div>
                 <img src="" alt="logo"/>
-                <h1>Dmart</h1>
+                <h1>Dmart shopping</h1>
             </div>
             <nav>
                 <ul>
