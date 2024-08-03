@@ -22,6 +22,8 @@ function App() {
       <div className='contentContainer'>
         <Aside className="aside">
           <h1>sidebar</h1>
+          <p>Home</p>
+          <p>profile</p>
         </Aside>
         <div className='articlesContainer'>
           <Article>
@@ -32,6 +34,15 @@ function App() {
           </Article>
           <Article>
           <h1>Article 3</h1>
+          </Article>
+          <Article>
+            <h1>Article 4</h1>
+          </Article>
+          <Article>
+          <h1>Article 5</h1>
+          </Article>
+          <Article>
+          <h1>Article 6</h1>
           </Article>
         </div>
       </div>
